@@ -13,6 +13,13 @@ export * from 'valueObjects/cpf.js';
 export * from 'valueObjects/dataHoraUTC.js';
 export * from 'valueObjects/matricula.js';
 export * from 'valueObjects/uuid.js';
+export * from 'schemas/message/request.js';
+export * from 'schemas/message/response.js';
+export * from 'schemas/domain/catalogo.js';
+export * from 'schemas/domain/historico.js';
+export * from 'schemas/domain/unidade.js';
+export * from 'schemas/domain/usuarioServidor.js';
+
 
 
 
