@@ -22,6 +22,6 @@ export class DataHoraUTC {
 
     static now() {
         const date = new Date();
-        return new DataUTC(date.toISOString().replace(/\.\d{3}Z$/, "Z"));
+        return new DataHoraUTC(date.toISOString().replace(/\.\d{3}Z$/, "Z"));
     }
 }

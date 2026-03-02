@@ -49,11 +49,11 @@ export class Catalogo {
         if (typeof this.nome !== "string" || this.nome.length < 3 || this.nome.length > 100) {
             throw new DomainError("Nome inválido.");
         }
-        if (typeof this.versao !== "string" || this.versao.length <= 10) {
+        if (typeof this.versao !== "string" || this.versao.length > 10) {
             throw new DomainError("Versão inválida.");
         }
-        if (typeof this.finalidade !== "string" || this.finalidade.length <= 200) {
-            throw new DomainError("Versão inválida.");
+        if (typeof this.finalidade !== "string" || this.finalidade.length > 200) {
+            throw new DomainError("Finalidade inválida.");
         }
         return this;
     }
