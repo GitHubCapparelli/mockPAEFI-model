@@ -9,7 +9,7 @@
         "sigla"           : { "type": "string" },
         "nome"            : { "type": "string" },
         "funcao"          : { "type": "string", 
-                              "enum": ["Governanca","Coordenacao","Diretoria","AssistenciaSocial"]
+                              "enum": ["Direcao","Coordenacao","Gestao","Governanca","AssistenciaSocial","Outra"]
                             },
         "ibgeId"          : { "type": ["string","null"] },
         "criadoEm"        : { "type": "string","format": "date-time" },
