@@ -14,10 +14,10 @@
         "ibgeId"          : { "type": ["string","null"] },
         "criadoEm"        : { "type": "string","format": "date-time" },
         "criadoPor"       : { "type": "string","format": "uuid" },
-        "alteradoEm"      : { "type": "string","format": "date-time" },
-        "alteradoPor"     : { "type": "string","format": "uuid" },
-        "excluidoEm"      : { "type": "string","format": "date-time" },
-        "excluidoPor"     : { "type": "string","format": "uuid" },
+        "alteradoEm"      : { "type": ["string","null"],"format": "date-time" },
+        "alteradoPor"     : { "type": ["string","null"],"format": "uuid" },
+        "excluidoEm"      : { "type": ["string","null"],"format": "date-time" },
+        "excluidoPor"     : { "type": ["string","null"],"format": "uuid" },
         "exclusaoFisica"  : { "type": "boolean" }
     }
 }
