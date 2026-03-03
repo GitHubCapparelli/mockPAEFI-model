@@ -9,7 +9,7 @@
     "properties"     : {
        "catalogoID"  : { "type": "string", "format": "uuid" },
        "tipo"        : { "type": "string", 
-                         "enum": ["Frontend","Backend","..."] }
+                         "enum": ["Erro","Backend","Frontend","Qualidade","Desempenho","Compliance"] }
     } },
     "payload": { "type": "object" }
   }
