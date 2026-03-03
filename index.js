@@ -1,13 +1,20 @@
 // index.js
+export * from 'entities/appDominio.js';
+export * from 'entities/appModulo.js';
 export * from 'entities/catalogo.js';
 export * from 'entities/historico.js';
 export * from 'entities/unidade.js';
 export * from 'entities/usuarioServidor.js';
+export * from 'enums/_baseEnum.js'
 export * from 'enums/cargoUsuario.js';
 export * from 'enums/especialidade.js';
 export * from 'enums/funcaoUnidade.js';
 export * from 'enums/funcaoUsuario.js';
 export * from 'enums/tipoLog.js';
+export * from 'enums/dataOrigin.js'
+export * from 'enums/grauImpacto.js'
+export * from 'enums/tipoAcesso.js'
+export * from 'enums/tipoCriptografia.js'
 export * from 'errors/domainError.js';
 export * from 'valueObjects/cpf.js';
 export * from 'valueObjects/dataHoraUTC.js';
@@ -19,9 +26,3 @@ export * from 'schemas/domain/catalogo.js';
 export * from 'schemas/domain/historico.js';
 export * from 'schemas/domain/unidade.js';
 export * from 'schemas/domain/usuarioServidor.js';
-
-
-
-
-
-
